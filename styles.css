@@ -129,13 +129,18 @@ html, body {
     margin-left: 25px;
 }
 
-.span-area > span {
+.span-area > span, .span-area > span > span {
     position: relative;
     display: inline-block;
     width: auto;
     height: auto;
     margin: auto;
-    cursor: pointer;
+}
+
+.app-version {
+    vertical-align: text-top;
+    font-size: 40%;
+    left: -15px;
 }
 
 .all-contents {
