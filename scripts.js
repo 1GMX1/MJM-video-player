@@ -1,8 +1,12 @@
 window.addEventListener('load', () => {
-    const logo = document.querySelector('.logo');
+    const spanAreaSpan = document.querySelector('.span-area > span');
+    const logoLogoSize = document.querySelector('.logo > logo-size');
     const downloadBtn = document.querySelector('.download-btn');
-    logo.addEventListener('click', () => {
-        window.open('https://' + (window.location.hostname).toString() + '/mjm-video-player/index.html', '_self');
+    spanAreaSpan.addEventListener('click', () => {
+        window.open('https://' + (window.location.hostname).toString() + '/MJM-video-player', '_self');
+    }, false);
+    logoLogoSize.addEventListener('click', () => {
+        window.open('https://' + (window.location.hostname).toString() + '/MJM-video-player', '_self');
     }, false);
     downloadBtn.addEventListener('mousedown', () => {
         downloadBtn.classList.add('hidden');
