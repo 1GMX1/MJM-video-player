@@ -137,6 +137,10 @@ html, body {
     margin: auto;
 }
 
+.span-area > span > span {
+    cursor: pointer;
+}
+
 .app-version {
     vertical-align: text-top;
     font-size: 40%;
